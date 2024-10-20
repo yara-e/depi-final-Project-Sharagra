@@ -1,0 +1,36 @@
+/*.carousel-caption h5,
+.carousel-caption p {
+  color: antiquewhite; 
+}
+
+ .carousel-control-prev,
+.carousel-control-next {
+  background-color: antiquewhite;  Button background color 
+} 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   background-color: antiquewhite;
+  color: antiquewhite;
+  font-size: 25px;
+}
+*/
+
+.carousel-image {
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    height: 750px; /* Set a fixed height for all images */
+}
+
+.carousel-caption {
+position: absolute;
+top: 50%; /* Center vertically */
+left: 50%; /* Center horizontally */
+transform: translate(-50%, -30%); /* Adjust for the element's dimensions */
+color: antiquewhite; /* Set text color */
+}
+  
+.carousel-text {
+    color: antiquewhite;
+    font-size: 28px; 
+}
+  

@@ -1,0 +1,14 @@
+.profilePage{
+    width: 100svw;
+    /* height: 210vh; */
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 28% 72%;
+}
+
+.sidebar{
+    width: 100%;
+    height: 100%;
+    background-color: #46543e;
+    color: antiquewhite;
+}

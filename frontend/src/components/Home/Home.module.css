@@ -1,0 +1,181 @@
+.home{
+    width: 100svw;
+    height: 100vh;
+    background: url('images/homeBackground.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #46543e ;
+    font-size: 20px;
+}
+
+
+.know,.know1{
+    width: 130px;
+    height: 50px;
+    font-size: 25px;
+    margin: 30px 0;
+    border: 1px solid #46543e;
+    border-radius: 10px;
+    background: linear-gradient(to right,#3d4e34,#72a551);
+    color: antiquewhite;
+    -webkit-text-stroke: 1.5px #46543e;
+    box-shadow: 10px 10px 5px #46543e98;
+    transition: 4s ease-in-out;
+}
+
+.know:hover , .know1:hover{
+    background: linear-gradient(to left,#3d4e34,#72a551);
+}
+
+h3,.textHome , .know1{
+    margin-left: 200px;
+}
+
+.planting{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.plantes{
+    width: 90svw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.imageTree{
+    width: 50%;
+    transition: 0.5s all;
+}
+
+.imageTree:hover{
+    transform: scale(1.04);
+}
+
+.services{
+    width: 100svw;
+    height: 200vh;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header1{
+    cursor: pointer;
+    margin-bottom: 70px;
+    transition: 0.5s all;
+}
+
+.header1:hover{
+    transform: scale(1.1);
+    text-shadow: 10px 10px 5px #46543e98;
+}
+h2{
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.5s all;
+}
+
+.ourService{
+    width: 80%;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 7%;
+}
+
+.ourService .header1{
+    margin-bottom: 150px;
+}
+
+.treeCard{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid #46543e;
+    color: #46543e;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #606f5898;
+    transition: 0.5s all;
+
+}
+
+.treeCard:hover{
+    transform: scale(1.05);
+}
+
+.imageCard{
+    width: 50%;
+}
+
+.treeCard h2{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.treeCard p{
+    width: 80%;
+    font-size: 22px;
+    color: #72a551;
+}
+
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.join p{
+    width: 50%;
+    font-size: 22px;
+    color: #6f8066;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popupInner {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    max-width: 90%;
+    height: auto; 
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.closeBtn {
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+}

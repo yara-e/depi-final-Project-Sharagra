@@ -1,0 +1,60 @@
+.container {
+    /* height: 100vh; */
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+    height: auto; 
+    overflow: hidden;
+    transition: height 0.3s ease; 
+}
+
+.donateH {
+    text-align: center;
+    color: #526646;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    
+}
+
+.label {
+    font-size: 16px;
+    color: #46543e;
+    margin-bottom: 2px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #66a03f; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color:#456930;
+}
+
+.success {
+    margin-top: 20px;
+    color: green;
+    font-size: 16px;
+    text-align: center;
+}

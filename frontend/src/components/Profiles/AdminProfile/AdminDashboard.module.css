@@ -1,0 +1,33 @@
+.dashboardLayout{
+    width: 70svw;
+    height: 140vh;
+}
+
+.dashboardPage{
+    padding: 0 100px;
+    margin-top: 200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 40px;
+}
+
+.number{
+    height: 200px;
+    color: #3a4931;
+    text-transform: capitalize;
+    background-color: rgb(246, 226, 198);
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 15px;
+    box-shadow: 10px 10px 15px #606f5898;
+}
+
+.number h4{
+    margin-top: 40px;
+    font-size: 40px;
+    color: green;
+}

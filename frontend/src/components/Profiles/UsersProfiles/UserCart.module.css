@@ -1,0 +1,56 @@
+.cartPage{
+    width: 70svw;
+    height: 150vh;
+    margin-top: 150px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.cartInfo{
+    width: 60%;
+    height: 700px;
+    color: #3a4931;
+    text-transform: capitalize;
+    background-color: rgb(246, 226, 198);
+    box-shadow: 25px 10px 25px #3333335c;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.point{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pointNum{
+    color: green;
+}
+
+.point h5{
+    font-size: 32px;
+}
+
+.allTreeBought{
+    margin-top: 30px;
+}
+
+.treeBought{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #46543e;
+}
+
+.treeBought h3{
+    margin: 0;
+}

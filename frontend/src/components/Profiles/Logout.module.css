@@ -1,0 +1,19 @@
+.LogoutPage{
+    width: 70svw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 20%;
+}
+
+.logout{
+    width: 90px;
+    height: 50px;
+    font-size: 22px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
