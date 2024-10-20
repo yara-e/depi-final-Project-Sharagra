@@ -41,27 +41,5 @@
 - **Profile Management**: Users can access their profile to view points and update information.
 - **Continuous Development**: A feedback form is available for users to provide input on improving the platform.
 
-## How to Get Started
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-repository/shagara.git
-   ```
-2. **Install dependencies**:
-   ```bash
-   cd shagara
-   npm install
-   ```
-3. **Run the application**:
-   ```bash
-   npm run dev
-   ```
-
-## How to Contribute
-
-We welcome contributions to improve Shagara. Here’s how you can contribute:
-- Fork the repository
-- Create a feature branch
-- Commit your changes
-- Open a pull request
 
